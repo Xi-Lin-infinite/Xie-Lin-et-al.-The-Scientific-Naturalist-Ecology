@@ -1,0 +1,59 @@
+summary_incu_days_upload.xlsx column name interpretation
+Each row in this table represents daily statistics
+# Nest: Nest ID
+# folder: Unique code made from nest ID and observation time period
+# Year: Observation year
+# date: Observation date
+# count_0: Minutes without birds incubating in the nest
+# count_1: Minutes the male/α-male is incubating in the nest
+# count_2: Minutes the female/α-female is incubating in the nest
+# count_3: Minutes the β-female is incubating in the nest, 0 for biparental care
+# count_4: Minutes due to unknown situations such as camera obstruction or battery change
+# total_count: Total observation time in minutes
+# temp_median: Median ground temperature in °C (α-couple monogamy lacks this data)
+# temp_mean: Mean ground temperature in °C (α-couple monogamy lacks this data)
+# temp_max: Maximum ground temperature in °C (α-couple monogamy lacks this data)
+# temp_min: Minimum ground temperature in °C (α-couple monogamy lacks this data)
+# label: Indicates the breeding event the nest belongs to. “Normal condition”= Regular monogamy, "α-couple monogamy"= α-couple in 2023 regular monogamy, "Cooperative polygyny" = nest of α-male, α-female, and β-female, "Aggressive polygyny_α" = nest of α-male and α-female, "Aggressive polygyny_β" = nest of α-male and β-female
+# count_total_incu: Total incubation minutes in the nest (sum of all parents' incubation times)
+
+
+summary_incu_hours_upload.xlsx column name interpretation
+Each row in this table represents hourly statistics
+# date: Observation date
+# hour: Hour of the day
+# Nest: Nest ID
+# folder: Unique code made from nest ID and observation time period
+# Year: Observation year
+# count_0: Minutes without birds incubating in the nest
+# count_1: Minutes the male/α-male is incubating in the nest
+# count_2: Minutes the female/α-female is incubating in the nest
+# count_3: Minutes the β-female is incubating in the nest, 0 for biparental care
+# count_4: Minutes due to unknown situations such as camera obstruction or battery change
+# total_count: Total observation time in minutes
+# temp_median: Median ground temperature in °C (α-couple monogamy lacks this data)
+# temp_mean: Mean ground temperature in °C (α-couple monogamy lacks this data)
+# temp_max: Maximum ground temperature in °C (α-couple monogamy lacks this data)
+# temp_min: Minimum ground temperature in °C (α-couple monogamy lacks this data)
+# label: Indicates the breeding event the nest belongs to. “Normal condition”= Regular monogamy, "α-couple monogamy"= α-couple in 2023 regular monogamy, "Cooperative polygyny" = nest of α-male, α-female, and β-female, "Aggressive polygyny_α" = nest of α-male and α-female, "Aggressive polygyny_β" = nest of α-male and β-female
+# count_total_incu: Total incubation minutes in the nest (sum of all parents' incubation times)
+
+
+summary_bout_data_upload.xlsx column name interpretation
+Each row in this table represents statistics for each bout
+# bout_id: ID of each bout in the nest
+# Year: Observation year
+# Nest: Nest ID
+# folder: Unique code made from nest ID and observation time period
+# start_time: Start time of the bout
+# end_time: End time of the bout
+# behavior_count: Minutes spent incubating in the bout
+# absence_count: Minutes when no birds were incubating (parents absent from the nest) in the bout
+# to: Responsible parent for the bout (after the shift): Individual_1 = male/α-male in cooperative polygyny; Individual_2 = female/α-female in cooperative polygyny; Individual_3 = β-female in cooperative polygyny
+# temp_median: Median ground temperature in °C (α-couple monogamy lacks this data)
+# temp_mean: Mean ground temperature in °C (α-couple monogamy lacks this data)
+# temp_max: Maximum ground temperature in °C (α-couple monogamy lacks this data)
+# temp_min: Minimum ground temperature in °C (α-couple monogamy lacks this data)
+# from: Responsible parent for the previous bout (before the shift): Individual_1 = male/α-male in cooperative polygyny; Individual_2 = female/α-female in cooperative polygyny; Individual_3 = β-female in cooperative polygyny
+# gap_length: Time without birds in the nest between shifts（this bout and the one before it）
+# label: Indicates the breeding event the nest belongs to. “Normal condition”= Regular monogamy, "α-couple monogamy"= α-couple in 2023 regular monogamy, "Cooperative polygyny" = nest of α-male, α-female, and β-female, "Aggressive polygyny_α" = nest of α-male and α-female, "Aggressive polygyny_β" = nest of α-male and β-female
